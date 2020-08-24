@@ -1,8 +1,9 @@
 # for as many numbers listed go through list and put highest number at end of array
 def bubblesort(array)
     sorted = []
+    
     for i in 0...array.length
-        for index in 0...array.length
+        for index in 0...array.length 
             lower_index = index
             higher_index = index + 1
             prev_num = array[lower_index].to_i
